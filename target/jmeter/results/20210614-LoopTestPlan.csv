@@ -1,0 +1,17 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1623639842424,1117,Home Page,200,OK,Jakarta Users 1-1,text,true,,9453,0,1,1,http://jakarta.apache.org/,799,0,0
+1623639843548,2384,News Page,200,OK,Jakarta Users 1-1,text,true,,69381,0,1,1,http://jakarta.apache.org/site/news/index.html,613,0,0
+1623639843548,613,News Page-0,301,Moved Permanently,Jakarta Users 1-1,text,true,,484,0,1,1,http://jakarta.apache.org/site/news.html,613,0,0
+1623639844162,1770,News Page-1,200,OK,Jakarta Users 1-1,text,true,,68897,0,1,1,http://jakarta.apache.org/site/news/index.html,620,0,0
+1623639845934,2671,News Page,200,OK,Jakarta Users 1-1,text,true,,69381,0,1,1,http://jakarta.apache.org/site/news/index.html,807,0,0
+1623639845934,807,News Page-0,301,Moved Permanently,Jakarta Users 1-1,text,true,,484,0,1,1,http://jakarta.apache.org/site/news.html,807,0,0
+1623639846741,1864,News Page-1,200,OK,Jakarta Users 1-1,text,true,,68897,0,1,1,http://jakarta.apache.org/site/news/index.html,654,0,0
+1623639848606,2586,News Page,200,OK,Jakarta Users 1-1,text,true,,69381,0,1,1,http://jakarta.apache.org/site/news/index.html,658,0,0
+1623639848606,659,News Page-0,301,Moved Permanently,Jakarta Users 1-1,text,true,,484,0,1,1,http://jakarta.apache.org/site/news.html,658,0,0
+1623639849265,1927,News Page-1,200,OK,Jakarta Users 1-1,text,true,,68897,0,1,1,http://jakarta.apache.org/site/news/index.html,650,0,0
+1623639851193,2395,News Page,200,OK,Jakarta Users 1-1,text,true,,69381,0,1,1,http://jakarta.apache.org/site/news/index.html,596,0,0
+1623639851193,596,News Page-0,301,Moved Permanently,Jakarta Users 1-1,text,true,,484,0,1,1,http://jakarta.apache.org/site/news.html,596,0,0
+1623639851789,1799,News Page-1,200,OK,Jakarta Users 1-1,text,true,,68897,0,1,1,http://jakarta.apache.org/site/news/index.html,595,0,0
+1623639853589,2667,News Page,200,OK,Jakarta Users 1-1,text,true,,69381,0,1,1,http://jakarta.apache.org/site/news/index.html,620,0,0
+1623639853589,620,News Page-0,301,Moved Permanently,Jakarta Users 1-1,text,true,,484,0,1,1,http://jakarta.apache.org/site/news.html,620,0,0
+1623639854209,2047,News Page-1,200,OK,Jakarta Users 1-1,text,true,,68897,0,1,1,http://jakarta.apache.org/site/news/index.html,624,0,0

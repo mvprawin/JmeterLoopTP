@@ -167,7 +167,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.03125, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0, 500, 1500, "News Page"], "isController": false}, {"data": [0.0, 500, 1500, "News Page-1"], "isController": false}, {"data": [0.0, 500, 1500, "Home Page"], "isController": false}, {"data": [0.1, 500, 1500, "News Page-0"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.1875, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0, 500, 1500, "News Page"], "isController": false}, {"data": [0.0, 500, 1500, "News Page-1"], "isController": false}, {"data": [0.5, 500, 1500, "Home Page"], "isController": false}, {"data": [0.5, 500, 1500, "News Page-0"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -181,7 +181,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 16, 0, 0.0, 5942.875, 604, 12076, 10124.400000000001, 12076.0, 12076.0, 0.31532685599416643, 13.535016523866302, 0.0], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["News Page", 5, 0, 0.0, 8876.6, 7734, 12076, 12076.0, 12076.0, 12076.0, 0.11262022208707795, 7.6305699498276915, 0.0], "isController": false}, {"data": ["News Page-1", 5, 0, 0.0, 7100.4, 5624, 9288, 9288.0, 9288.0, 9288.0, 0.1168306189686193, 7.860624174883754, 0.0], "isController": false}, {"data": ["Home Page", 1, 0, 0.0, 6323.0, 6323, 6323, 6323.0, 6323.0, 6323.0, 0.15815277558121146, 1.4599786987980388, 0.0], "isController": false}, {"data": ["News Page-0", 5, 0, 0.0, 1775.6, 604, 2788, 2788.0, 2788.0, 2788.0, 0.128952390777325, 0.06095015345334502, 0.0], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 16, 0, 0.0, 1657.6249999999995, 596, 2671, 2668.2, 2671.0, 2671.0, 1.156737998843262, 49.651552446320125, 0.0], "isController": false}, "titles": ["Label", "#Samples", "KO", "Error %", "Average", "Min", "Max", "90th pct", "95th pct", "99th pct", "Throughput", "Received", "Sent"], "items": [{"data": ["News Page", 5, 0, 0.0, 2540.6, 2384, 2671, 2671.0, 2671.0, 2671.0, 0.3934529430280138, 26.658358047096318, 0.0], "isController": false}, {"data": ["News Page-1", 5, 0, 0.0, 1881.4, 1770, 2047, 2047.0, 2047.0, 2047.0, 0.4134281461881925, 27.81636619914834, 0.0], "isController": false}, {"data": ["Home Page", 1, 0, 0.0, 1117.0, 1117, 1117, 1117.0, 1117.0, 1117.0, 0.8952551477170994, 8.264498936884513, 0.0], "isController": false}, {"data": ["News Page-0", 5, 0, 0.0, 659.0, 596, 807, 807.0, 807.0, 807.0, 0.4689991558015196, 0.221675382234312, 0.0], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
